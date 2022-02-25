@@ -9,7 +9,7 @@ document.body.appendChild(list);
 
 html.onclick = function() {
   const listItem = document.createElement('li');
-  const listContent = prompt('希望列表中显示什么内容？');
+  const listContent = prompt('希望列表中显示什么内容');
   listItem.textContent = listContent;
   list.appendChild(listItem);
 
