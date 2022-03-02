@@ -7,7 +7,7 @@ html, body {
 
 html {
   font-size: 10px;
-  background-color: #a9a9a9;
+  background-color: #F5F5DC;
 }
 
 body {
@@ -24,7 +24,7 @@ h1, h2, h3 {
 }
 
 p, input, li {
-  font-family: 'Noto Sans SC', sans-serif;
+  font-family: 'Long Cang', cursive;
   color: #2a2a2a;
 }
 
