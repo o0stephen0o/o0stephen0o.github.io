@@ -14,23 +14,11 @@
   <body>
     <header>
       <h1>观鸟网</h1>
-      <svg width="100%" height="100%">
-
-        <rect width="100%" height="100%" fill="red" />
-        <circle cx="100%" cy="100%" r="150" fill="blue" stroke="black" />
-        <polygon points="120,0 240,225 0,225" fill="green"/>
-        
-        <text x="50" y="100" font-family="Verdana" font-size="20"
-              fill="white" stroke="black" stroke-width="3">
-                Hello!
-        </text>        
-        
-      </svg>
+      
       <img src="images/dove.png" alt="一个鸽子剪影图片">
 
       <nav>
         
-
         <ul>
           <li><span>主页</span></li>
           <li><a href="#">开始</a></li>
@@ -38,8 +26,7 @@
           <li><a href="#">设备</a></li>
           <li><a href="#">论坛</a></li>
         </ul>
-      
-        
+              
       </nav>
     </header>
 
@@ -61,6 +48,16 @@
         </video>
 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/eRsGyueVLvQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+        <img srcset="images/img3_320px.jpg 320w,
+             images/img3_480px.jpg 480w,
+             images/img3_800px.jpg 800w"
+        sizes="(max-width: 320px) 280px,
+            (max-width: 480px) 440px,
+            800px"
+        src="images/img3_800px.jpg" alt="beautiful view">
+      
+      
       </article>
 
       <aside>
@@ -76,6 +73,19 @@
     <footer>
       <p>本虚拟站点采用 CC0 协议，代码所有内容均可任意修改和复用。原始版本由 Chris Mills 于 2016 年编写。Roy Tian 于 2019 年汉化。</p>
       <p><a href="http://game-icons.net/lorc/originals/dove.html">鸽子图标</a> 由 Lorc 绘制。</p>
+
+      <svg width="100%" height="100%">
+
+        <rect width="100%" height="100%" fill="red" />
+        <circle cx="100%" cy="100%" r="150" fill="blue" stroke="black" />
+        <polygon points="120,0 240,225 0,225" fill="green"/>
+        
+        <text x="50" y="100" font-family="Verdana" font-size="20"
+              fill="white" stroke="black" stroke-width="3">
+                Hello!
+        </text>        
+      </svg>
+
     </footer>
 
   </body>
