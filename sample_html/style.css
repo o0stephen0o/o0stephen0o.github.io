@@ -51,6 +51,8 @@ p, li {
 /* || 标题布局 */
 
 header {
+  background: url(images/header.jpg) no-repeat center;
+  height: 200px;
   margin-bottom: 10px;
   display: flex;
   flex-flow: row wrap;
