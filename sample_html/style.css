@@ -51,8 +51,9 @@ p, li {
 /* || 标题布局 */
 
 header {  
-  background: url(header.jpg) no-repeat center;
-        height: 200px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-flow: row wrap;
   }
   /*margin-bottom: 10px;*/
   /*display: flex;*/
@@ -65,6 +66,8 @@ main, nav, article, aside, footer, section {
 }
 
 h1 {
+  background: url(images/header.jpg) no-repeat center;
+  height: 200px;
   flex: 5;
   text-transform: uppercase;
 }
