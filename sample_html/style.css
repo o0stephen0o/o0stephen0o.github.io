@@ -50,15 +50,16 @@ p, li {
 
 /* || 标题布局 */
 
-header {
-  background: url(images/header.jpg) no-repeat center;
-  height: 200px;
-  margin-bottom: 10px;
-  display: flex;
-  flex-flow: row wrap;
+header {  
+  background: url(header.jpg) no-repeat center;
+        height: 200px;
+  }
+  /*margin-bottom: 10px;*/
+  /*display: flex;*/
+  /*flex-flow: row wrap;*/
 }
 
-main, header, nav, article, aside, footer, section {
+main, nav, article, aside, footer, section {
   background-color: rgba(29, 149, 63, 0.5);
   padding: 1%;
 }
