@@ -60,7 +60,7 @@ header {
   /*flex-flow: row wrap;*/
 }
 
-main, nav, article, aside, footer, section {
+main, header, nav, article, aside, footer, section {
   background-color: rgba(29, 149, 63, 0.5);
   padding: 1%;
 }
