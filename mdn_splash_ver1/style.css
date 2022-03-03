@@ -22,7 +22,8 @@ html {
     top: 32.5px;
   }
   h1 {
-    background: url(images/header.jpg) no-repeat left;    
+    background: url(images/header.jpg) no-repeat left;
+    margin: 0 0 0 0px;
     flex: 5;
     font-size: 50px;
     line-height: 140px;
