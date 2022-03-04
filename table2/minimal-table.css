@@ -33,6 +33,17 @@ html {
   caption {
     padding: 10px;
   }
+
+  tbody {
+    font-size: 90%;
+    font-style: italic;
+  }
+  
+  tfoot {
+    font-weight: bold;
+  }
+
+
   © 2022 GitHub, Inc.
   Terms
   Privac
