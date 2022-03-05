@@ -4,7 +4,7 @@ html {
   
   table {
     border-collapse: collapse;
-    border: 2px solid rgb(200,200,200);
+    border: 1px solid rgb(200,200,200);
     letter-spacing: 1px;
     font-size: 0.8rem;
   }
@@ -14,7 +14,7 @@ html {
     padding: 10px 20px;
   }
   
-  th {
+  th, tfoot {
     background-color: #FF4A57;
   }
   
@@ -36,7 +36,7 @@ html {
   }
 
 
-  thead, tfoot {
+  thead {
     background: url(images/pattern.png);
     color: white;
     text-shadow: 1px 1px 1px black;
