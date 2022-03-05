@@ -23,8 +23,8 @@ html {
   }
 
   thead th, tfoot th, tfoot td {
-    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
-    border: 3px solid grey;
+    /* background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5)); */
+    border: 1px solid grey;
   }
   
   tr:nth-child(even) td {
@@ -39,7 +39,7 @@ html {
   thead {
     background: url(images/pattern.png);
     color: white;
-    text-shadow: 1px 1px 1px black;
+    
   }
   
   caption {
