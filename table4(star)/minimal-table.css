@@ -121,6 +121,12 @@ html {
      text-decoration: none;
    }
 
+   button {
+    cursor: pointer; 
+}
+
+
+
 
   
   
