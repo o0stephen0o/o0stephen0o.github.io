@@ -33,3 +33,11 @@ html {
   caption {
     padding: 10px;
   }
+
+  fieldset {    
+        border:0;
+        padding:10px;
+        margin-bottom:10px;
+        background:#EEE;
+  }
+    
