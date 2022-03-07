@@ -133,9 +133,7 @@ input[type="radio"] {
   border: 0.5em solid currentColor;
   border-radius: 50%;
   transform: translateY(-0.075em);
-  display: grid;
-  grid-template-columns: 0.1px auto;
-  gap: 0.1px;
+  display: grid;  
   place-content: center;
 }
 
