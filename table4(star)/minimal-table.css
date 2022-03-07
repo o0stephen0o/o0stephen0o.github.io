@@ -128,10 +128,10 @@ input[type="radio"] {
   margin: 0;
 
   font: inherit;
-  color: currentColor;
+  color: rgb(210, 111, 235);
   width: 0.5em;
   height: 0.5em;
-  border: 0.05em solid currentColor;
+  border: 0.1em solid rgb(210, 111, 235);
   border-radius: 50%;
   transform: translateY(-0.075em);
   display: grid;
