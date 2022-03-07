@@ -79,6 +79,9 @@ html {
   // Learn about this technique:
 // @link https://moderncss.dev/pure-css-custom-styled-radio-buttons/
 
+
+
+
 :root {
   --form-control-color: rebeccapurple;
 }
@@ -87,10 +90,6 @@ html {
 *:before,
 *:after {
   box-sizing: border-box;
-}
-
-body {
-  margin: 0;
 }
 
 form {
@@ -142,8 +141,8 @@ input[type="radio"] {
 
 input[type="radio"]::before {
   content: "";
-  width: 1.5em;
-  height: 1.5em;
+  width: 1.2em;
+  height: 1.2em;
   border-radius: 50%;
   transform: scale(0);
   transition: 120ms transform ease-in-out;
@@ -157,8 +156,8 @@ input[type="radio"]:checked::before {
 }
 
 input[type="radio"]:focus {
-  outline: max(1.5px, 0.15em) solid rgb(122, 122, 235);
-  outline-offset: max(1.5px, 0.15em);
+  outline: max(0.65px, 0.15em) solid rgb(122, 122, 235);
+  outline-offset: max(0.65px, 0.15em);
 }
 
 .form-control:focus-within {
