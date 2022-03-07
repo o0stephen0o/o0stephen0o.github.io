@@ -142,7 +142,7 @@ input[type="radio"] {
 
 input[type="radio"]::before {
   content: "";
-  width: 0.3m;
+  width: 0.3em;
   height: 0.3em;
   border-radius: 50%;
   transform: scale(0);
