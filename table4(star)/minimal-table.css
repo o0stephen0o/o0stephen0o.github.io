@@ -88,8 +88,8 @@ html {
   
     font: inherit;
     color: currentColor;
-    width: 0.3em;
-    height: 0.3em;
+    width: 1.1em;
+    height: 1.1em;
     border: 0.15em solid currentColor;
     border-radius: 50%;
     transform: translateY(-0.075em);
@@ -100,8 +100,8 @@ html {
   
   input[type="radio"]::before {
     content: "";
-    width: 0.2em;
-    height: 0.2em;
+    width: 1em;
+    height: 1em;
     border-radius: 25%;
     transform: scale(0);
     transition: 120ms transform ease-in-out;
@@ -115,7 +115,7 @@ html {
   }
   
   input[type="radio"]:focus {
-    outline: max(1px, 0.15em) solid currentColor;
+    outline: max(2px, 0.15em) solid currentColor;
     outline-offset: max(1px, 0.15em);
   }
 
