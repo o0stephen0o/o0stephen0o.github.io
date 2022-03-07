@@ -88,8 +88,8 @@ html {
   
     font: inherit;
     color: currentColor;
-    width: 1.15em;
-    height: 1.15em;
+    width: 0.3em;
+    height: 0.3em;
     border: 0.15em solid currentColor;
     border-radius: 50%;
     transform: translateY(-0.075em);
