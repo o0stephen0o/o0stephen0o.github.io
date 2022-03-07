@@ -72,8 +72,8 @@ html {
     -webkit-box-shadow:2px 2px 4px #666;
 
 
-    position:absolute;
-    left:10px;top:-11px;
+    position:relative;
+    
   }
 
   input {
