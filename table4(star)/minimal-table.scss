@@ -156,7 +156,7 @@ input[type="radio"]:checked::before {
 }
 
 input[type="radio"]:focus {
-  outline: max(2px, 0.15em) solid currentColor;
+  outline: max(2px, 0.15em) solid blue;
   outline-offset: max(2px, 0.15em);
 }
 
