@@ -100,9 +100,9 @@ html {
   
   input[type="radio"]::before {
     content: "";
-    width: 0.65em;
-    height: 0.65em;
-    border-radius: 50%;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 25%;
     transform: scale(0);
     transition: 120ms transform ease-in-out;
     box-shadow: inset 1em 1em var(--form-control-color);
@@ -115,8 +115,8 @@ html {
   }
   
   input[type="radio"]:focus {
-    outline: max(2px, 0.15em) solid currentColor;
-    outline-offset: max(2px, 0.15em);
+    outline: max(1px, 0.15em) solid currentColor;
+    outline-offset: max(1px, 0.15em);
   }
 
 
