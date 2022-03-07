@@ -116,7 +116,7 @@ html {
   
   input[type="radio"]:focus {
     outline: max(2px, 0.15em) solid currentColor;
-    outline-offset: max(1px, 0.15em);
+    outline-offset: max(2px, 0.15em);
   }
 
   .btn-grad {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
