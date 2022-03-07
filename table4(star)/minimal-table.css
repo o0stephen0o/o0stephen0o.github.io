@@ -105,7 +105,7 @@ form {
   line-height: 0.8;
   display: grid;
   grid-template-columns: 1em auto;
-  gap: 0.5em;
+  gap: 0.1em;
 }
 
 .form-control + .form-control {
@@ -154,7 +154,7 @@ input[type="radio"]:checked::before {
 }
 
 input[type="radio"]:focus {
-  outline: max(0.65px, 0.3em) solid rgb(122, 122, 235);
+  outline: max(0.65px, 0.3em) solid currentColor;
   outline-offset: max(0.65px, 0.3em);
 }
 
