@@ -129,9 +129,9 @@ input[type="radio"] {
 
   font: inherit;
   color: rgb(210, 111, 235);
-  width: 0.6px;
-  height: 0.6px;
-  border: 0.1px solid rgb(210, 111, 235);
+  width: 2em;
+  height: 2em;
+  border: 0.5em solid rgb(210, 111, 235);
   border-radius: 50%;
   transform: translateY(-0.075em);
   display: grid;
@@ -142,8 +142,8 @@ input[type="radio"] {
 
 input[type="radio"]::before {
   content: "";
-  width: 0.3px;
-  height: 0.3px;
+  width: 1.5em;
+  height: 1.5em;
   border-radius: 50%;
   transform: scale(0);
   transition: 120ms transform ease-in-out;
