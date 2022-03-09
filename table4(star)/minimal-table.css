@@ -1,6 +1,11 @@
 html {
     font-family: sans-serif;
   }
+
+  table [id="noborder"] {
+    border: none;
+  }
+
   
   table {
     border-collapse: collapse;
@@ -130,7 +135,7 @@ input[type="radio"] {
   color: currentColor;
   width: 1.15em;
   height: 1.15em;
-  border: 0.15em solid currentColor;
+  border: 0.15em rgba(143, 180, 236, 0.815);
   border-radius: 50%;
   transform: translateY(-0.075em);
   display: grid;  
@@ -157,39 +162,6 @@ input[type="radio"]:checked::before {
   outline: max(0.65px, 0.3em) solid currentColor;
   outline-offset: max(0.65px, 0.3em);
 } */
-
-label {
-  /* 确保所有label大小相同并正确对齐 */
-  display: inline-block;
-  width: 100px;
-  text-align: center;
-}
-
-input, textarea {
-  /* 确保所有文本输入框字体相同
-     textarea默认是等宽字体 */
-  font: 1em sans-serif;
-
-  /* 使所有文本输入框大小相同 */
-  width: 300px;
-  box-sizing: border-box;
-
-  /* 调整文本输入框的边框样式 */
-  border: 1px solid #999;
-}
-
-input:focus, textarea:focus {
-  /* 给激活的元素一点高亮效果 */
-  border-color: rgb(181, 68, 233);
-}
-
-textarea {
-  /* 使多行文本输入框和它们的label正确对齐 */
-  vertical-align: top;
-
-  /* 给文本留下足够的空间 */
-  height: 5em;
-}
 
 
 .form-control:focus-within {
@@ -219,10 +191,6 @@ textarea {
 
   button {
   cursor: pointer; 
-}
-
-table.noborder{
-
 }
 
 
