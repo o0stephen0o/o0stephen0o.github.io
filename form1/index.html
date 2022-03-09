@@ -60,6 +60,35 @@
             </p>
         </section>
 
+        <section>
+            <h2>Payment information</h2>
+            <p>
+              <label for="card">
+                <span>Card type:</span>
+              </label>
+              <select id="card" name="usercard">
+                <option value="visa">Visa</option>
+                <option value="mc">Mastercard</option>
+                <option value="amex">American Express</option>
+              </select>
+            </p>
+            <p>
+              <label for="number">
+                <span>Card number:</span>
+                <strong><abbr title="required">*</abbr></strong>
+              </label>
+                <input type="number" id="number" name="cardnumber">
+            </p>
+            <p>
+              <label for="date">
+                <span>Expiration date:</span>
+                <strong><abbr title="required">*</abbr></strong>
+                <em>formatted as mm/yy</em>
+              </label>
+              <input type="date" id="date" name="expiration">
+            </p>
+        </section>
+
 
     </form>
   </body>
