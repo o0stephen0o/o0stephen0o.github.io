@@ -1,0 +1,18 @@
+fieldset {
+    background-color: #ccc;
+    padding: 10px;
+  }
+  td {
+    padding: 5px;
+  }
+  #submit-btn {
+    color: white;
+  }
+  select{
+    width: 100px;
+  }
+  
+  label{
+    display: block;
+    width: 100px;
+  }
