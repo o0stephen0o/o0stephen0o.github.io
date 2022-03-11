@@ -38,8 +38,15 @@ input[type=checkbox], input[type=radio] {
     border: none;
 }
 
+input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
 input:focus, textarea:focus {
-    border-color: #000;
+    border-color: rgb(228, 112, 203);
 }
 
 textarea {
