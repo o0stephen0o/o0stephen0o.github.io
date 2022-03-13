@@ -62,8 +62,7 @@
 
                     
                     <tr>
-                        <td align="left">
-                        
+                        <td align="left">                        
                             <label for="mail">
                                 <span>E-mail: </span>
                                 <strong><abbr title="required">*</abbr></strong>
@@ -101,35 +100,54 @@
 
                     <tr>
 
-                        <p>
-                        <label for="card">
-                            <span>Card type:</span>
-                            <strong><abbr title="required">*</abbr></strong>
-                        </label>
-                        <select id="card" name="usercard">
-                            <option value="visa">Visa</option>
-                            <option value="mc">Mastercard</option>
-                            <option value="amex">American Express</option>
-                        </select>
-                        </p>
+                        <td align="left">
+                            <label for="card">
+                                <span>Card type:</span>
+                                <strong><abbr title="required">*</abbr></strong>
+                            </label>
+                        </td>
+
+                        <td align="left">
+                            <select id="card" name="usercard">
+                                <option value="visa">Visa</option>
+                                <option value="mc">Mastercard</option>
+                                <option value="amex">American Express</option>
+                            </select>
+                        </td>
 
                     </tr>
 
-                        <p>
-                        <label for="number">
-                            <span>Card number:</span>
-                            <strong><abbr title="required">*</abbr></strong>
-                        </label>
+                    <tr>
+
+                        <td align="left">
+                            <label for="number">
+                                <span>Card number:</span>
+                                <strong><abbr title="required">*</abbr></strong>
+                            </label>
+                        </td>
+
+                        <td align="left">
                             <input type="number" id="number" name="cardnumber">
-                        </p>
-                        <p>
-                        <label for="date">
-                            <span>Expiration date:</span>
-                            <strong><abbr title="required">*</abbr></strong>
-                            <em>formatted as mm/yy</em>
-                        </label>
-                        <input type="date" id="date" name="expiration">
-                        </p>
+                        </td>
+                    
+                    </tr>
+
+                    <tr>
+
+                        <td align="left">
+                            <label for="date">
+                                <span>Expiration date:</span>
+                                <strong><abbr title="required">*</abbr></strong>
+                                <em>formatted as mm/yy</em>
+                            </label>
+
+                        </td>
+
+                        <td align="left">
+                             <input type="date" id="date" name="expiration">
+                        </td>
+
+                    </tr>
 
                 </table>
 
