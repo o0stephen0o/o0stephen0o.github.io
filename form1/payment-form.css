@@ -20,7 +20,7 @@ ul {
 
 form {
     margin: 0 auto;
-    width: 500px;
+    width: 400px;
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
@@ -38,7 +38,7 @@ label span {
 
 input, textarea {
     font: 1em sans-serif;
-    width: 250px;
+    width: 200px;
     box-sizing: border-box;
     border: 1px solid #999;
 }
@@ -50,8 +50,8 @@ input[type=checkbox], input[type=radio] {
 
 input[type=date] {
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 9px 9px;
+    margin: 6px 0;
     box-sizing: border-box;
   }
 
