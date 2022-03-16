@@ -29,7 +29,7 @@
 
                     <tr>
     
-                        <td align="left">
+                        <td scope="col" colspan="2" align="left">
                             <fieldset>
                                 <legend> Title</legend>
                                 <ul>
@@ -59,7 +59,7 @@
                     </tr>
 
                     <tr>
-                        <td align="left">
+                        <td scope="col" colspan="2" align="left">
                             <label for="name">
                                 <span>Name: </span>
                                 <strong><abbr title="required">*</abbr></strong>
@@ -73,7 +73,7 @@
 
                     
                     <tr>
-                        <td align="left">                        
+                        <td scope="col" colspan="2" align="left">                        
                             <label for="mail">
                                 <span>E-mail: </span>
                                 <strong><abbr title="required">*</abbr></strong>
@@ -86,7 +86,7 @@
 
 
                     <tr>
-                        <td align="left">                            
+                        <td scope="col" colspan="2" align="left">                            
                             <label for="pwd">
                                 <span>Password: </span>
                                 <strong><abbr title="required">*</abbr></strong>
@@ -98,9 +98,9 @@
 
                     </tr>
                     
-                    <tr rowspan="2">
+                    <tr>
 
-                        <td align="left">
+                        <td scope="col" colspan="2" align="left">
                             <h2>Payment information</h2>
                         </td>
 
@@ -108,7 +108,7 @@
 
                     <tr>
 
-                        <td align="left">
+                        <td scope="col" colspan="2" align="left">
                             <label for="card">
                                 <span>Card type:</span>
                                 <strong><abbr title="required">*</abbr></strong>
@@ -125,7 +125,7 @@
 
                     <tr>
 
-                        <td align="left">
+                        <td scope="col" colspan="2" align="left">
                             <label for="number">
                                 <span>Card number:</span>
                                 <strong><abbr title="required">*</abbr></strong>
@@ -139,19 +139,27 @@
 
                     <tr>
 
-                        <td align="left">
+
+                        <td align="right" width="35%">
 
                             <label for="date">
+
                                 <span>Expiration date:</span>
                                 <strong><abbr title="required">*</abbr></strong>
                                 <br>
-                                <em>formatted as mm/yy</em>                              
+                                <em>formatted as mm/yy</em>
+
                             </label>
+
+                        </td>
+
+                        <td align="left" width="65%">
 
                             <input type="date" id="date" name="expiration">
 
                         </td>
-
+                            
+                        
 
                     </tr>
 
