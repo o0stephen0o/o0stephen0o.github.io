@@ -73,15 +73,23 @@
                     <tr>
 
                         <td scope="col" colspan="2" align="left">
-                            <label for="card">
-                                <span>Card:</span>
+                            <label for="occupation">
+                                <span>Occupation:</span>
                                 <strong><abbr title="required">*</abbr></strong>
                             </label>
 
-                            <select id="occupation" name="usercard">
-                                <option value="visa">Visa</option>
-                                <option value="mc">Mastercard</option>
-                                <option value="amex">American Express</option>
+                            <select id="occupation" name="occu">
+                                <optgroup label="finance">
+                                    <option>accountant</option>
+                                    <option selected>trader</option>
+                                    <option>financial advisor</option>
+                                 </optgroup>
+
+                                 <optgroup label="engineer">
+                                    <option>housing</option>
+                                    <option selected>civil infrasturcture</option>                                    
+                                 </optgroup>
+
                             </select>
                         </td>
 
