@@ -5,6 +5,10 @@ h1 {
 td {
     padding: 2px;
   }
+
+tr {
+    height: 30px;
+}
   
 
 fieldset {
@@ -38,7 +42,7 @@ label span {
 
 input, textarea {
     font: 1em sans-serif;
-    width: 100px;
+    width: 250px;
     box-sizing: border-box;
     border: 1px solid #999;
 }
