@@ -29,7 +29,7 @@ ul {
 
 form {
     margin: 0 auto;
-    width: 450px;
+    width: 400px;
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
@@ -53,17 +53,24 @@ label {
 }
 
 label span[id="special1"], label span[id="percentage2"], label[id="special"], label[id="percentage1"] {
-
     float: right;
     width: 7em;
     /*text-align: right;
 
     margin-right: 1em;*/     
     
-    
 }
 
-input, textarea, input[type=number], input[type=range] {
+span[id="percentage3"] {
+
+    float: left;
+    width: 2em;
+}
+
+
+
+
+input, textarea, input[type=number], input[type=range], input[type=month], input[type=time], input[type=file], progress, meter  {
     font: 1em sans-serif;
     width: 250px;
     box-sizing: border-box;

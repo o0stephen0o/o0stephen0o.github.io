@@ -191,9 +191,8 @@
 
                         <td align="right" width="60%">
 
-                            <input type="range" name="percentages" id="percentages" min="0" max="100" step="1">
-                            <br>
-                            <span class="percentagerate"></span>
+                            <input type="range" name="percentages" id="percentages" min="0" max="100" step="1">                            
+                            <span class="percentagerate" id="percentage3"></span>
 
                         </td>
 
@@ -212,6 +211,30 @@
 
                     </tr>
 
+                    <tr>
+                        <td scope="col" colspan="2" align="left">                        
+                            <label for="birthmonth">
+                                <span>birthday-month: </span>
+                                <strong><abbr title="required">*</abbr></strong>
+                            </label>
+
+                            <input type="month" id="birthmonth" name="birthmonth">
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td scope="col" colspan="2" align="left">                        
+                            <label for="appltime">
+                                <span>Application-Time: </span>
+                                <strong><abbr title="required">*</abbr></strong>
+                            </label>
+
+                            <input type="time" id="appltime" name="appltime" >
+                        </td>
+
+                    </tr>
+
 
                     <tr>
                         <td scope="col" colspan="2" align="left">                            
@@ -221,6 +244,47 @@
                             </label>
 
                             <input type="password" id="pwd" name="password">
+                        </td>
+                     
+
+                    </tr>
+
+                    <tr>
+                        <td scope="col" colspan="2" align="left">                            
+                            <label for="progress">
+                                <span>Progress: </span>
+                                <strong><abbr title="required">*</abbr></strong>
+                                
+                            </label>
+
+                            <progress max="100" value="75">95/100</progress>
+                        </td>
+                     
+
+                    </tr>
+
+                    <tr>
+                        <td scope="col" colspan="2" align="left">                            
+                            <label for="meter">
+                                <span>Meter: </span>
+                                <strong><abbr title="required">*</abbr></strong>
+                                
+                            </label>
+
+                            <meter min="0" max="100" value="20" low="33" high="66" optimum="50">20</meter>
+                        </td>
+                     
+
+                    </tr>
+
+                    <tr>
+                        <td scope="col" colspan="2" align="left">                            
+                            <label for="identity">
+                                <span>Upload Identity Proof: </span>
+                                <strong><abbr title="required">*</abbr></strong>
+                            </label>
+
+                            <input type="file" id="identity" name="identity">
                         </td>
                      
 
@@ -284,7 +348,7 @@
 
                         <td align="left" width="64.5%">
 
-                            <input type="date" id="date" name="expiration">
+                            <input type="date" id="date" name="expiration" min="2018-01-01" max="2030-12-31">
 
                         </td>
                             
