@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <link href="payment-form.css" rel="stylesheet">
+    
+    <title>My test page</title>
+  </head>
+  <body>
+    <p>This is my page</p>
+
+    <form>
+        <h1>Payment form</h1>
+
+           <p>Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</p>
+
+           <section>
+
+                <h2>Contact information</h2>
+
+                <table width="40%" border="0" cellpadding="0" cellspacing="0" vspace="0" hspace="0">
+
+                    <!-- <rowgroup>
+
+                        <row span="2">
+                        <row style="border: 2px solid black">
+                        <row span="10">
+
+                    </rowgroup> -->
+
+                    <tr>
+    
+                        <td scope="col" colspan="2" align="left">
+                            <fieldset>
+                                <legend> Title</legend>
+                                <ul>
+                                    <li>
+                                        <label for="title_1">
+                                        <input type="radio" id="title_1" name="title" value="K" >
+                                        King
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="title_2">
+                                        <input type="radio" id="title_2" name="title" value="Q">
+                                        Queen
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="title_3">
+                                        <input type="radio" id="title_3" name="title" value="J">
+                                        Joker
+                                        </label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+                        </td>
+   
+                        
+                    </tr>
+
+                    <tr>
+                        <td scope="col" colspan="2" align="left">
+                            <label for="name">
+                                <span>Name: </span>
+                                <strong><abbr title="required">*</abbr></strong>
+                            </label>
+
+                            <input type="text" id="name" name="username">
+                        </td>
+                        
+                    </tr>
+
+                    <tr>
+
+                        <td scope="col" colspan="2" align="left">
+
+                            <label for="occupation">
+                                <span>Occupation:</span>
+                                <strong><abbr title="required">*</abbr></strong>
+                            </label>
+
+                            <select id="occupation" name="occu" width="250" style="width: 250px">
+                                <optgroup label="finance">
+                                    <option>accountant</option>
+                                    <option selected>trader</option>
+                                    <option>financial advisor</option>
+                                 </optgroup>
+
+                                 <optgroup label="engineer">
+                                    <option>housing</option>
+                                    <option selected>civil infrasturcture</option>                                    
+                                 </optgroup>
+
+                            </select>
+                        </td>
+
+                    </tr>
+
+                    <tr> 
+
+                        <td align="right" width="39%">
+
+                            <label id="special" for="occupation" vertical-align="top">
+
+                                <span id="special1">Location:</span>
+                                <strong><abbr title="required">*</abbr></strong>
+
+                            </label>
+
+                        </td>
+
+                        <td align="left" width="61%">
+
+                            <select multiple id="multi" name="multi" width="250" style="width: 250px">
+                                <optgroup label="Asia">
+
+                                    <option>China Hong Kong</option>
+                                    <option>Taiwan</option>
+                                    <option>China </option>
+
+                                </optgroup>
+
+                                <optgroup label="South Asia">
+
+                                    <option>Indonesia</option>
+                                    <option>India</option>
+                                    
+                                </optgroup>
+
+                            </select>
+
+                        </td>
+
+                        <!-- <td scope="col" colspan="2" align="left"> -->
+
+
+                    </tr>
+
+                  
+
+                    <tr>
+                        <td scope="col" colspan="2" align="left">
+
+                        <label for="Identity">
+
+                            <span>What's your Identity Proof?</span>
+                            <strong><abbr title="required">*</abbr></strong>
+
+
+                        </label>
+
+
+                        <input type="text" name="Identity" id="Identity" list="mySuggestion">
+
+                        <datalist id="mySuggestion">
+
+                            <option>ID Card</option>
+                            <option>Passport</option>
+                            <option>Visa</option>
+                            
+
+                        </datalist>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td scope="col" colspan="2" align="left"> 
+
+                            <label for="age">
+                                <span>Age: </span>
+                                <strong><abbr title="required">*</abbr></strong>
+                            </label>
+
+                            <input type="number" name="age" id="age" min="1" max="99" step="1">
+                        </td>
+
+                    </tr>
+
+                    <tr class="trow">
+                        <td align="right" width="40%">
+
+                            <label for="percentages" id="percentage1">
+                                <span id="percentage2">Give Percentage:  </span>
+                                <strong><abbr title="required">*</abbr></strong>
+                            </label>
+
+                        </td>
+
+                        <td align="right" width="60%">
+
+                            <input type="range" name="percentages" id="percentages" min="0" max="100" step="1">
+                            <br>
+                            <span class="percentagerate"></span>
+
+                        </td>
+
+                    </tr>
+
+                    
+                    <tr>
+                        <td scope="col" colspan="2" align="left">                        
+                            <label for="mail">
+                                <span>E-mail: </span>
+                                <strong><abbr title="required">*</abbr></strong>
+                            </label>
+
+                            <input type="email" id="mail" name="usermail">
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+                        <td scope="col" colspan="2" align="left">                            
+                            <label for="pwd">
+                                <span>Password: </span>
+                                <strong><abbr title="required">*</abbr></strong>
+                            </label>
+
+                            <input type="password" id="pwd" name="password">
+                        </td>
+                     
+
+                    </tr>
+                    
+                    <tr>
+
+                        <td scope="col" colspan="2" align="left">
+                            <h2>Payment information</h2>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td scope="col" colspan="2" align="left">
+                            <label for="card">
+                                <span>Card type:</span>
+                                <strong><abbr title="required">*</abbr></strong>
+                            </label>
+
+                            <select id="card" name="usercard" width="250" style="width: 250px">
+                                <option value="visa">Visa</option>
+                                <option value="mc">Mastercard</option>
+                                <option value="amex">American Express</option>
+                            </select>
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td scope="col" colspan="2" align="left">
+                            <label for="number">
+                                <span>Card number:</span>
+                                <strong><abbr title="required">*</abbr></strong>
+                               
+                            </label>
+                            <input type="number" id="number" name="cardnumber">
+                        </td>
+
+                     
+                    </tr>
+
+                    <tr>
+
+
+                        <td align="right" width="35.5%">
+
+                            <label for="date">
+
+                                <span>Expiration date:</span>
+                                <strong><abbr title="required">*</abbr></strong>
+                                <br>
+                                <em>formatted as mm/yy</em>
+
+                            </label>
+
+                        </td>
+
+                        <td align="left" width="64.5%">
+
+                            <input type="date" id="date" name="expiration">
+
+                        </td>
+                            
+
+                    </tr>
+                   
+
+                </table>
+
+            </section>
+
+        <p> <button type="submit">Validate the payment</button> </p>
+
+
+    </form>
+
+<script>
+
+    var percentages = document.querySelector('#percentages');
+    var count = document.querySelector('.percentagerate');
+
+    count.textContent = percentages.value;
+
+    percentages.oninput = function() {
+        count.textContent = percentages.value + "%";
+    }
+</script>
+
+
+
+</body>
+
+</html>
