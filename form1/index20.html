@@ -73,6 +73,7 @@
                     <tr>
 
                         <td scope="col" colspan="2" align="left">
+
                             <label for="occupation">
                                 <span>Occupation:</span>
                                 <strong><abbr title="required">*</abbr></strong>
@@ -97,17 +98,103 @@
 
                     <tr> 
 
-                        <select multiple id="multi" name="multi" width="250" style="width: 250px">
+                        <td align="right" width="39%">
 
-                            <option>Banana</option>
-                            <option>Cherry</option>
-                            <option>Lemon</option>
+                            <label id="special" for="occupation" vertical-align="top">
 
-                        </select>
+                                <span id="special1">Location:</span>
+                                <strong><abbr title="required">*</abbr></strong>
+
+                            </label>
+
+                        </td>
+
+                        <td align="left" width="61%">
+
+                            <select multiple id="multi" name="multi" width="250" style="width: 250px">
+                                <optgroup label="Asia">
+
+                                    <option>China Hong Kong</option>
+                                    <option>Taiwan</option>
+                                    <option>China </option>
+
+                                </optgroup>
+
+                                <optgroup label="South Asia">
+
+                                    <option>Indonesia</option>
+                                    <option>India</option>
+                                    
+                                </optgroup>
+
+                            </select>
+
+                        </td>
+
+                        <!-- <td scope="col" colspan="2" align="left"> -->
 
 
                     </tr>
 
+                  
+
+                    <tr>
+                        <td scope="col" colspan="2" align="left">
+
+                        <label for="Identity">
+
+                            <span>What's your Identity Proof?</span>
+                            <strong><abbr title="required">*</abbr></strong>
+
+
+                        </label>
+
+
+                        <input type="text" name="Identity" id="Identity" list="mySuggestion">
+
+                        <datalist id="mySuggestion">
+
+                            <option>ID Card</option>
+                            <option>Passport</option>
+                            <option>Visa</option>
+                            
+
+                        </datalist>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td scope="col" colspan="2" align="left"> 
+
+                            <label for="age">
+                                <span>Age: </span>
+                                <strong><abbr title="required">*</abbr></strong>
+                            </label>
+
+                            <input type="number" name="age" id="age" min="1" max="99" step="1">
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td align="right" width="40%">
+
+                            <label for="percentage" id="percentage1">
+                                <span id="percentage">Give Percentage:  </span>
+                                <strong><abbr title="required">*</abbr></strong>
+                            </label>
+
+                        </td>
+
+                        <td align="right" width="60%">
+
+                            <input type="range" name="percentage" id="percentage" min="0" max="100" step="1">
+
+                        </td>
+
+                    </tr>
 
                     
                     <tr>

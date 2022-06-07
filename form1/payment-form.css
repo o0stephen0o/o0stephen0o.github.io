@@ -77,9 +77,9 @@ input, textarea, input[type=number], input[type=range], input[type=month], input
     border: 1px solid #999;
 }
 
-input[type=checkbox], input[type=radio] {
+/* input[type=checkbox], input[type=radio] {
     width: auto;
-    border: none;
+    border: none; */
 }
 
 input[type=date] {
@@ -110,7 +110,7 @@ input:required {
     border: 1px solid rgb(214, 24, 24);
   }
 
- input:optional {
+input:optional {
     border: 1px solid rgb(97, 58, 189);
   }
 
@@ -123,3 +123,36 @@ button {
 label {
   position: relative;
 }
+
+input[type="radio"]:indeterminate {
+    border: 2px solid red;
+    animation: 0.4s linear infinite alternate border-pulse;
+  }
+  
+  @keyframes border-pulse {
+    from {
+      border: 2px solid red;
+    }
+  
+    to {
+      border: 6px solid red;
+    }
+  }
+
+ /* input[type="radio"]::before {
+    display: block;
+    content: " ";
+    width: 3px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: red;
+    font-size: 1.2em;
+    transform: translate(1px, 1px) scale(0);
+    transform-origin: center;
+    transition: all 0.3s ease-in;
+  }
+  
+input[type="radio"]:checked::before {
+    transform: translate(1px, 1px) scale(1);
+    transition: all 0.3s cubic-bezier(0.25, 0.25, 0.56, 2);
+  } */

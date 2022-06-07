@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <link href="javascript-label.css" rel="stylesheet">
+
+    <title>互动标签示例</title>
+
+    
+  </head>
+  <body>
+    <p>玩家1：小明</p>
+
+    <script>
+      const para = document.querySelector('p');
+      para.addEventListener('click', updateName);
+      function updateName() {
+        const name = prompt('输入一个新的名字：');
+        para.textContent = '玩家1：' + name;
+      }
+    </script>
+  </body>
+</html>
