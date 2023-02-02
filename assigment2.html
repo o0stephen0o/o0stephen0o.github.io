@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" 
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+  <title>Bootstrap Sandbox</title>
+  <style>
+    /*###################START HERE####################*/
+    
+    /*Small devices (landscape phones, 576px and down)*/
+    @media (max-width: 576px) {
+      
+      .navContainer{
+        
+        position: fixed;
+        top:0;
+        margin-top:-1.5rem;
+        padding:0;
+        
+      }
+      
+      .carouselContainer{
+
+        transform: scale(0.96);
+        text-align: center;
+
+        padding:1.3rem;
+        position: relative;
+        top:0.5rem;
+        /*border: 2px solid red;*/
+
+        
+      }
+      
+      .jumbotronContainer{
+        
+        transform: scale(0.945);
+        text-align: center;
+        
+        /*border: 2px solid red;*/
+        position: relative;
+        top:-2.2rem;
+        height:71rem;
+      }
+      
+      .cardContainer{
+        transform: scale(0.95);
+        text-align: center;
+        
+        /*border: 2px solid red;*/
+        position: relative;
+        top:6rem;
+        height:140rem;
+      }
+      
+      .contactContainer{
+
+        transform: scale(0.945);
+        text-align: center;
+
+        /*border: 2px solid red;*/
+        position: relative;
+        top:0.2rem;
+        height:65rem;
+        max-width: 500px;
+        
+      }
+      
+      input[type="text"], input[type="email"], textarea{
+        width: 100%;
+      }
+      
+      input[type="submit"]{
+       margin-top: 1.2rem;
+        position:relative;
+        left: 25rem;
+      }
+      
+      
+      label > p {
+        font-size: 1.2rem;
+        margin:0;
+        
+      }
+      
+     
+      h1[class="slideFont"]{
+        font-size: 4rem;
+      }
+
+      .map{
+        /*width="600" height="450" style="border:0;"*/
+
+        width: 450px;
+        height: 450px;
+
+
+      }
+
+      .col{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+      }
+        
+      .jumbotronImg {
+
+        transform: scale(0.9);
+        
+      }
+
+      .card{
+        
+        position: relative;
+        left: 5.5rem;
+      }
+      
+      .cardComponent{
+        
+        /*border: 2px solid red;*/
+      }
+      
+      .footerlist{
+        
+        border: 1px solid red;
+     
+      }
+
+    }
+
+    /*Medium devices (tablets, 650px and up)*/
+
+    @media (min-width: 576px) and (max-width: 720px) {
+      
+        .navContainer{
+            
+            position: fixed;
+            top:0;
+            margin-top:-1.5rem;
+            padding:0;
+            
+        }
+        
+        .carouselContainer{
+    
+            transform: scale(0.93);
+            text-align: center;
+    
+            /*padding:3rem;*/
+            /*border: 2px solid red;*/
+            margin-top: 0.8rem;
+    
+            
+        }
+        
+        .jumbotronContainer{
+            
+            transform: scale(0.945);
+            text-align: center;
+            
+            /*border: 2px solid red;*/
+            position: relative;
+            top:-1.5rem;
+            height:71rem;
+        }
+        
+        .cardContainer{
+            transform: scale(0.95);
+            text-align: center;
+            
+           /* border: 2px solid red;*/
+            position: relative;
+            top:-2.5rem;
+            height:138rem;
+        }
+        
+            
+        h1[class="slideFont"]{
+            font-size: 6rem;
+        }
+    
+        .col{
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+            
+        .jumbotronImg {
+    
+            transform: scale(0.9);
+            
+        }
+    
+        .card{
+            
+            position: relative;
+            left: 9.2rem;
+        }
+        
+        .cardComponent{
+            
+            /*border: 2px solid red;*/
+        }
+        
+    }
+   /* @media (max-width: 650px) {
+        
+        .carouselContainer {
+          width: 100%;
+  
+          max-width: 620px;
+          
+          padding:0.5rem;
+          
+          margin-top:0.5rem;
+        }
+
+      .carousel-caption > h1 {
+        transform: scale(0.7);
+      }
+
+      .col{
+        width: 100%;
+        padding: 0;
+
+      }
+    
+        
+    }*/
+    
+
+    /*Large devices (desktops, 992px and up)*/
+    
+    @media (min-width: 721px) and (max-width: 992px) {
+      
+        .navContainer{
+            
+            position: fixed;
+            top:0;
+            margin-top:-1.5rem;
+            padding:0;
+            
+        }
+        
+        .carouselContainer{
+    
+            transform: scale(0.93);
+            text-align: center;
+    
+            /*padding:3rem;*/
+            /*border: 2px solid red;*/
+            margin-top: 0.8rem;
+    
+            
+        }
+        
+        .jumbotronContainer{
+            
+            transform: scale(0.945);
+            text-align: center;
+            
+            /*border: 2px solid red;*/
+            position: relative;
+            top:-1.5rem;
+            height:71rem;
+
+            width: 100%;
+  
+            max-width: 600px;
+            
+        }
+        
+        .cardContainer{
+            transform: scale(0.95);
+            text-align: center;
+            
+            /*border: 2px solid red;*/
+            position: relative;
+            top:-4.0rem;
+            
+            height:142rem;
+            max-width: 520px;
+        }
+        
+            
+        h1[class="slideFont"]{
+            font-size: 6.5rem;
+        }
+    
+        .col{
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+            
+        .jumbotronImg {
+    
+            transform: scale(0.9);
+            
+        }
+    
+        .card{
+            
+            position: relative;
+            left: 7.2rem;
+            
+        }
+        
+        .cardComponent{
+            
+            /*border: 2px solid red;*/
+        }
+        
+        
+      
+      .col{
+          width: 100%;
+          padding: 0;          
+      }
+
+      
+    }
+    
+    
+
+    /*Large devices (desktops, 992px and up)*/
+
+    @media (min-width: 993px) and (max-width: 1200px) {
+
+      .navContainer{
+
+        position: fixed;
+        top:0;
+        margin-top:-1.5rem;
+        padding:0;
+
+      }
+
+      .carouselContainer{
+
+        transform: scale(0.93);
+        text-align: center;
+
+        /*padding:3rem;*/
+        /*border: 2px solid red;*/
+        margin-top: 0.8rem;
+
+
+      }
+
+      .jumbotronContainer{
+
+        transform: scale(0.945);
+        text-align: center;
+
+        /*border: 2px solid red;*/
+        position: relative;
+        top:-1.5rem;
+        height:71rem;
+
+        width: 100%;
+
+        max-width: 600px;
+
+      }
+
+      .cardContainer{
+        /*transform: scale(0.95);*/
+        text-align: center;
+
+        /*border: 2px solid red;*/
+        position: relative;
+        top:-0.5rem;
+
+        height:140rem;
+        max-width: 1000px;
+      }
+
+
+      h1[class="slideFont"]{
+        font-size: 6.5rem;
+      }
+
+      .col{
+        width: auto;
+        padding: 0;
+        margin: 0;
+      }
+
+      .jumbotronImg {
+
+        transform: scale(0.9);
+
+      }
+
+      .card{
+
+        position: relative;
+        left: 9rem;
+
+      }
+
+      .cardComponent{
+
+        /*border: 2px solid red;*/
+        max-width: 600px;
+        
+      }
+
+
+
+      .col{
+        width: 100%;
+        padding: 0;
+      }
+
+
+    }
+   /*@media (min-width: 1120px) {
+        .container {
+            width: 80%;
+            
+            max-width: 900px;
+        }
+
+     .col{
+        width: auto;
+      }
+
+
+    }*/
+    
+    
+    /*Extra large devices (large desktops, 1200px and up)*/
+  
+
+    @media (min-width: 1200px) {
+      
+        /*.container {*/
+        /*    width: 80%;*/
+        /*    */
+        /*    max-width: 1200px;*/
+        /*}*/
+
+      .navContainer{
+
+        position: fixed;
+        top:0;
+        margin-top:-1.5rem;
+        padding:0;
+
+      }
+
+      .carouselContainer{
+
+        /*transform: scale(0.93);*/
+        text-align: center;
+
+        padding:2rem;
+        /*border: 2px solid red;*/
+        /*margin-top: 0.8rem;*/
+
+
+      }
+
+      .jumbotronContainer{
+
+        transform: scale(0.945);
+        text-align: center;
+
+        /*border: 2px solid red;*/
+        position: relative;
+        top:-1.5rem;
+        height:49rem;
+
+        width: 100%;
+
+        max-width: 1200px;
+
+      }
+
+      .cardContainer{
+        /*transform: scale(0.95);*/
+        text-align: center;
+
+        /*border: 2px solid red;*/
+        position: relative;
+        top:-0.5rem;
+
+        height:52rem;
+        max-width: 1200px;
+      }
+
+
+      h1[class="slideFont"]{
+        font-size: 8rem;
+      }
+
+      .col{
+        width: auto;
+        padding: 0;
+        margin: 0;
+      }
+
+      .jumbotronImg {
+
+        transform: scale(0.9);
+
+      }
+
+      /*.card{*/
+      
+      /*  position: relative;*/
+      /*  left: 9rem;*/
+      
+      /*}*/
+
+      .cardComponent{
+
+        /*border: 2px solid red;*/
+        max-width: 1200px;
+        margin-top: 1rem;
+      }
+
+
+      .col{
+        width: 100%;
+        padding: 0;
+      }
+
+
+    }
+    
+    body {
+      height: 100rem;
+    }
+    
+    .fontIcon {
+      height: 1.5rem;
+      width: 1rem;
+      border-radius: 0.2rem;
+    }
+    
+    .item {
+      -webkit-transform-style: preserve-3d;
+      -moz-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+    }
+    
+    .slideFont{
+      font-size: 8rem;
+      font-family: 'Lobster', cursive;
+    }
+    
+    .card{
+      width: 20rem;
+      border: none;
+    }
+    
+    .cardTopicFont{
+      font-size: 4rem;
+      font-family: 'Lobster', cursive;
+    }
+    
+    
+  </style>
+</head>
+
+
+<body class="bg-secondary">
+  <header style="height:3rem;">
+      <div class="navContainer w-100 sticky-top">
+        `<nav class="navbar navbar-expand-md navbar-dark bg-dark  "> <!--sticky-top-->
+          <a class="navbar-brand h4" style="position:relative; top:2px;" href="#">
+            <img src="./img/cocoa.png" width="30" height="30"   alt="">
+            Cocoa
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              
+              <li class="nav-item active">
+                <a class="nav-link h5 " href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link h5 " href="#">Features</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link h5 " href="#">Pricing</a>
+              </li>
+  
+            </ul>
+           
+            <ul class="navbar-nav ml-auto">
+              
+                <li class="nav-item">
+                  <a class="nav-link h5 " href="#">Login</a>
+                </li>
+    
+                <li class="nav-item">
+                  <a class="nav-link h5 " href="#">Register</a>
+                </li>
+                
+            </ul>
+  
+          </div>
+        </nav>
+        
+      </div>
+             
+  </header>
+
+  <!--###################START HERE####################-->
+  
+  <!--### Start Carousel ###-->
+  <div class=" container-lg bg-secondary carouselContainer">
+    <div class="row">
+      <div class="w-100 ">
+
+        <!-- SLIDER WITH CAPTIONS -->
+        <div id="slider4" class="carousel slide w-100 bg-dark" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li class="active" data-target="#slider4" data-slide-to="0"></li>
+            <li data-target="#slider4" data-slide-to="1"></li>
+            <li data-target="#slider4" data-slide-to="2"></li>
+          </ol>
+          
+          <div class="carousel-inner">
+            
+            <div class="carousel-item active item">
+              <img class=" d-block img-fluid w-100" src="./img/slide1.jpeg" alt="First Slide"> <!--img-thumbnail d-block img-fluid w-100 mt-mb-0-->
+              <div class="carousel-caption " style="top: 50%;transform: translateY(-50%);bottom: initial;">
+                <h1 class="slideFont">Hello Cocoa</h1>
+                <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, illo?</p>
+              </div>
+            </div>
+            
+            <div class="carousel-item item">
+              <img class="d-block img-fluid w-100" src="./img/slide2.jpeg" alt="Second Slide">
+              <div class="carousel-caption" style="top: 50%;transform: translateY(-50%);bottom: initial;">
+                <h1 class="slideFont">Smooth Cocoa</h1>
+                <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, illo?</p>
+              </div>
+            </div>
+            
+            <div class="carousel-item item">
+              <img class="d-block img-fluid w-100" src="./img/slide3.jpeg" alt="Third Slide">
+              <div class="carousel-caption" style="top: 50%;transform: translateY(-50%);bottom: initial;">
+                <h1 class="slideFont">Raw Cocoa</h1>
+                <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, illo?</p>
+              </div>
+            </div>
+            
+          </div>
+
+          <!-- CONTROLS -->
+          <a href="#slider4" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon fontIcon"></span>
+          </a>
+
+          <a href="#slider4" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon fontIcon"></span>
+          </a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--### End Carousel ###-->
+ 
+  <!--### Start Jumbotron ###-->
+  
+  <div class="container jumbotronContainer" >
+    <div class="row justify-content-center">
+        
+      <div class="jumbotron w-80 text-center">
+        <h1 class="display-4">Welcome To My Website!</h1>
+        <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum necessitatibus perspiciatis cum vitae, modi hic?</p>
+        <hr class="my-4">
+        <div class="newsComponent row row-cols-2">
+          <div class="col p-1 h-auto">
+            <img src="./img/cocoa.png" class="rounded jumbotronImg" alt="Image">
+          </div>
+          
+          <div class="col p-3 h-auto">
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, quibusdam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, quibusdam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, quibusdam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, quibusdam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, quibusdam.
+            Guzzle, murmur, granular, slurp, smolder, flutter, slither, rattle, 
+            meander, simmer, chatter, waft, bluster, glimmer, rustle, purr, burble, 
+            squirm, hiss, hum, flicker, whirr, thrum, quaver, coo, trill, flit, swirl,
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, quibusdam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, quibusdam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, quibusdam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, quibusdam.
+            Guzzle, murmur, granular, slurp, smolder, flutter, slither, rattle,
+            meander, simmer, chatter, waft, bluster, glimmer, rustle, purr, burble,
+            squirm, hiss, hum, flicker, whirr, thrum, quaver, coo, trill, flit, swirl,
+           </p>
+            
+          </div>
+        </div>
+        <br>
+        <div class="row row-cols-1">
+          <div class="col text-center">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  
+  <!--### End Media Jumbotron ###-->
+  
+  <!--### Start Card Component ###-->
+  
+  <div class="container w-100 cardContainer">
+    <div class="row justify-content-center ">
+      
+      <div class="row bg-dark w-100" style="height:7rem;text-align: center;border-radius: 12px;">
+        <p class="cardTopicFont m-1 col text-light text-center align-middle" >Popular Item</p>
+      </div>
+      
+      <div class="cardComponent row row-cols-3">
+        
+          <div class="col p-2">
+              <div class="card">
+                
+                <img class="card-img-top" src="./img/pro01.jpeg" alt="pro01">
+                <div class="card-body text-center">
+                  <h4 class="card-title">Card Title</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
+                  <a class="btn btn-success btn-block" href="#">Read More</a>
+                </div>
+                <div class="card-footer text-secondary bg-light " style="height: 2vh;">
+                  <p class="text-sm-right align-top text-dark" style="position:absolute;bottom:-1rem;left:14rem">2 Days Ago</p>
+                </div>
+              </div>
+          </div>  
+                    
+          <div class="col p-2">
+            
+              <div class="card" style="width: 20rem;border: none;" >
+                <img class="card-img-top" src="./img/pro02.jpeg" alt="pro02.jpeg">
+                <div class="card-body text-center">
+                  <h4 class="card-title">Card Title</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
+                  <a class="btn btn-success btn-block" href="#">Read More</a>
+                </div>
+                <div class="card-footer text-secondary bg-light " style="height: 2vh;">
+                  <p class="text-sm-right align-top text-dark" style="position:absolute;bottom:-1rem;left:14rem">2 Days Ago</p>
+                </div>
+              </div>
+            
+          </div>  
+          
+          <div class="col p-2">
+            <div class="card" style="width: 20rem;border: none;" >
+              <img class="card-img-top" src="./img/pro03.jpeg" alt="pro03">
+              <div class="card-body text-center">
+                <h4 class="card-title">Card Title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
+                <a class="btn btn-success btn-block" href="#">Read More</a>
+              </div>
+              <div class="card-footer text-secondary bg-light " style="height: 2vh;">
+                <p class="text-sm-right align-top text-dark" style="position:absolute;bottom:-1rem;left:14rem">2 Days Ago</p>
+              </div>
+            </div> 
+        
+          </div>     
+      </div>
+    </div> 
+  </div>
+    
+  <!-- ### End  Card Component ###-->
+
+  <!-- ### Start Contactus Component ###-->
+
+  <div class="container contactContainer" >
+    <div class="row justify-content-center">
+
+      <div class="jumbotron w-80 text-center bg-dark">
+        <h1 class="display-4 text-light">Contact Us</h1>
+        
+        <hr class="my-4">
+        
+        <div class="newsComponent row row-cols-2">
+          <div class="col p-1 h-auto">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.061814931146!2d114.20683911744385!3d22.389027000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040720a29f150b%3A0x826f34b7a120c555!2sHello%20Cocoa!5e0!3m2!1szh-CN!2shk!4v1675310659153!5m2!1szh-CN!2shk" class="map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+          <div class="col p-3 h-auto">
+            
+              <form id="registerForm" action="https://www.google.com" method="get" class="text-left">
+
+
+                   <label class="text-light text-left" for="name"> <p>Name:</p></label><br/>
+                   <input id="name" class="nameText" type="text" name="name" required/><br/>
+             
+
+               
+
+                  <label class="text-light" for="email" style="margin-top: 10px;"> <p>Email:</p></label><br/>
+                  <input id="email" name="email" type="email"  required /><br/>
+
+
+
+                  
+                  <label class="text-light" for="message" style="margin-top: 10px;"> <p>Message</p></label><br/>
+                  <textarea id="message" name="mess" required></textarea><br/>
+                  
+         
+
+
+             
+                  <input type="submit" value="Submit">
+              
+
+
+              </form>
+
+          </div>          
+        </div>
+        
+       
+      </div>
+    </div>
+  </div>
+
+  <!-- ### End Contactus Component ###-->
+  
+  <!-- ### Start the Footer ###-->
+
+  <!-- Footer -->
+  <footer class="page-footer font-small blue pt-4 bg-light">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+
+          <!-- Content -->
+          <h5 class="text-uppercase">Contact</h5>
+          
+          <h6>Address:</h6>
+          <p>Shop 127A5, 1/F, Kings Wing Plaza II, On Kwan Street, N.T., Sha Tin</p>
+
+          <h6>Email:</h6>
+          <p>hellococoa@gmail.com</p>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none pb-2">
+
+        <!-- Grid column -->
+        
+       
+
+        <div class="col-md-6 mt-md-0 mt-3 text-center text-md-right">
+          
+          <ul class="list-styled" >
+
+            <!-- Links -->
+            
+           <li style="white-space: nowrap; display: inline-block;">
+              <a href="#!" ><img alt="facebook" width="40" height="40" src="./img/facebook.gif"></a>
+           </li>
+
+            <li style="white-space: nowrap; display: inline-block;">
+              <a href="#!" ><img alt="instragram" width="40" height="40" src="./img/instagram.gif"></a>
+            </li>
+
+            <li style="white-space: nowrap; display: inline-block;">
+              <a href="#!" ><img alt="whatsapp" width="40" height="40" src="./img/whatsapp.gif"></a>
+            </li>
+           
+          </ul>
+          
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2023 Copyright:
+      <a href="#">Assigment2</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
+  
+
+
+  <!-- ### End the Footer ###-->
+  
+  
+
+  <div style="margin-top:500px;"></div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+  
+  <script>
+
+    $('.carousel').carousel({
+      interval: 3000,
+      keyboard: true,
+      pause: 'hover',
+      wrap: true
+    });
+
+    $('#slider4').on('slide.bs.carousel', function () {
+      console.log('SLIDE!');
+    });
+
+    $('#slider4').on('slid.bs.carousel', function () {
+      console.log('SLID!');
+    });
+    
+    
+
+  </script>
+</body>
+
+</html>
