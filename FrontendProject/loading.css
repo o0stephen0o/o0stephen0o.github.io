@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  #background-container {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+  }
+
+  #background {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./Img/LoadingPage/fog01.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    animation: zoomIn 3s forwards;
+    opacity: 1;
+    transition: opacity 3s ease-in-out; 
+  }
+
+  #background.hide {
+    opacity: 0;
+  } 
+
+
+
+  #logo {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    width: 50%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    animation: zoomIn 3s forwards;
+    }
+
+    #logo {
+      position: absolute;
+      /* background-position: center; */
+      top: 47%;
+      left: 43%;
+      width: 15%;
+      height: auto;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      animation: zoomIn 3s forwards;
+      }
+
+
+
+  #small-image {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    z-index: 5;
+    opacity: '1';
+    transform: translate(-50%, -50%) rotate(0deg);
+    animation: moveAndRotate 10s ease-in-out infinite;
+  }
+
+
+
+  @keyframes zoomIn {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.2);
+    }
+  }
+
+  @keyframes moveAndRotate {
+    from {
+      transform: translate(-50%, -50%) rotate(45deg);
+    }
+    to {
+      transform: translate(calc(-50% + 150px), calc(-50% + 150px)) rotate(360deg);
+    }
+  }

@@ -1,0 +1,267 @@
+{
+  "flights": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "destination": "MERCURY",
+        "date": "1-3",
+        "month": "MAR",
+        "price": 9999,
+        "soldOut": false,
+        "inventory": 10,
+        "image": { "fields": { "file": { "url": "./Img/Index/mars.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "destination": "VENUS",
+        "date": "2-16",
+        "month": "MAR",
+        "price": 10999,
+        "soldOut": true,
+        "inventory": 0,
+        "image": { "fields": { "file": { "url": "./Img/Index/mars.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "destination": "MARS",
+        "date": "7-11",
+        "month": "MAR",
+        "price": 9999,
+        "soldOut": false,
+        "inventory": 10,
+        "image": { "fields": { "file": { "url": "./Img/Index/mars.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "destination": "VENUS",
+        "date": "8-11",
+        "month": "MAR",
+        "price": 7999,
+        "soldOut": false,
+        "inventory": 10,
+        "image": { "fields": { "file": { "url": "./Img/Index/jupiter.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "destination": "SATURN",
+        "date": "6-12",
+        "month": "APR",
+        "price": 9999,
+        "soldOut": false,
+        "inventory": 10,
+        "image": { "fields": { "file": { "url": "./Img/Index/jupiter.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "destination": "MERCURY",
+        "date": "12-16",
+        "month": "ARP",
+        "price": 9999,
+        "soldOut": false,
+        "inventory": 10,
+        "image": { "fields": { "file": { "url": "./Img/Index/mars.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "destination": "URANUS",
+        "date": "20-23",
+        "month": "MAY",
+        "price": 9999,
+        "soldOut": false,
+        "inventory": 10,
+        "image": { "fields": { "file": { "url": "./Img/Index/moon.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "destination": "MERCURY",
+        "date": "22-24",
+        "month": "ARP",
+        "price": 9999,
+        "soldOut": false,
+        "inventory": 10,
+        "image": { "fields": { "file": { "url": "./Img/Index/mars.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "9" },
+      "fields": {
+        "destination": "MARS",
+        "date": "20-26",
+        "month": "MAY",
+        "price": 9999,
+        "soldOut": false,
+        "inventory": 10,
+        "image": { "fields": { "file": { "url": "./Img/Index/jupiter.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "10" },
+      "fields": {
+        "destination": "JUPITER",
+        "date": "5 - 7",
+        "month": "JUN",
+        "price": 9999,
+        "soldOut": false,
+        "inventory": 10,
+        "image": { "fields": { "file": { "url": "./Img/Index/jupiter.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "11" },
+      "fields": {
+        "destination": "VENUS",
+        "date": "16-18",
+        "month": "JUN",
+        "price": 8999,
+        "soldOut": true,
+        "inventory": 0,
+        "image": { "fields": { "file": { "url": "./Img/Index/jupiter.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "12" },
+      "fields": {
+        "destination": "MARS",
+        "date": "16-19",
+        "month": "MAY",
+        "price": 7999,
+        "soldOut": false,
+        "inventory": 10,
+        "image": { "fields": { "file": { "url": "./Img/Index/mars.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "13" },
+      "fields": {
+        "destination": "VENUS",
+        "date": "1-3",
+        "month": "MAR",
+        "price": 9999,
+        "soldOut": false,
+        "inventory": 10,
+        "image": { "fields": { "file": { "url": "./Img/Index/mars.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "14" },
+      "fields": {
+        "destination": "Moon",
+        "date": "6-9",
+        "month": "JUL",
+        "price": 9999,
+        "soldOut": false,
+        "inventory": 10,
+        "image": { "fields": { "file": { "url": "./Img/Index/mars.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "15" },
+      "fields": {
+        "destination": "MERCURY",
+        "date": "10-11",
+        "month": "JUL",
+        "price": 9999,
+        "soldOut": false,
+        "inventory": 10,
+        "image": { "fields": { "file": { "url": "./Img/Index/moon.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "16" },
+      "fields": {
+        "destination": "VENUS",
+        "date": "12-13",
+        "month": "JUL",
+        "price": 9999,
+        "soldOut": false,
+        "inventory": 10,
+        "image": { "fields": { "file": { "url": "./Img/Index/jupiter.jpg" } } }
+      }
+    }
+    
+  ],
+  "journeys": [
+    {
+      "sys": { "id": "17" },
+        "fields": {
+          "tripTitle": "3 DAYS MOONWALKING TOURS",
+          "date": "5-8 MAY, 2066",
+          "distance": "384,400",
+          "difficulty": 2,
+          "overView": "This experience tour is designed for first-time space travelers.Guided by experienced astronauts and trainers. Take a spacewalk, collect meteorites, and experience the human feat of half a century ago.",
+          "itinerary1": "Day 1: Visit NASA, experience weightlessness training, and learn about astronaut basic equipment.",
+          "itinerary2": "Day 2: Board the DRAGON spacecraft and leave Earth, enter the designated orbit of 34sP* and enjoy the view of the Earth.",
+          "itinerary3": "Day 3: Roam the moon, visit the landing site of the moon, and collect meteorite fragments.",
+          "originalPrice": 99999,
+          "price": 79999,
+          "soldOut": false,
+          "inventory": 10,
+          "image": { "fields": { 
+            "file1": { "url": "./Img/Trip/trip1-slider1.png" },
+            "file2": {"url": "./Img/Trip/trip1-slider2.png"},
+            "file3": {"url": "./Img/Trip/trip1-slider3.png"}
+          }}
+        }
+    },
+    {
+      "sys": { "id": "18" },
+      "fields": {
+        "tripTitle": "MARS STAYCATION",
+        "date": "DEC, 2068",
+        "distance": "5,4000,000",
+        "difficulty": 3,
+        "overView": "Mars, with its Earth-like environment and abundant resources, has become a possible destination for human habitation. This month-long journey takes you to China's Mars base to observe missions including water purification and search for Martian life. Suitable for those with a strong interest in science.",
+        "itinerary1": "Day 1: Ride the Mars Ascent Vehicle to ascend Mount 75FF# and observe Martian storms.",
+        "itinerary2": "Day 2: Attempt to produce drinking water using the fuel hydrazine and participate in space planting.",
+        "itinerary3": "Day 3: Follow the Chinese Mars base research team deep underground to explore the footprints of alien life.",
+        "originalPrice": 120000,
+        "price": 100600,
+        "soldOut": false,
+        "inventory": 10,
+        "image": { "fields": {
+          "file1": { "url": "./Img/Trip/trip2-slider1.png" },
+          "file2": {"url": "./Img/Trip/trip2-slider2.png"},
+          "file3": {"url": "./Img/Trip/trip2-slider3.png"}
+        }}
+      }
+    },
+    {
+      "sys": { "id": "19" },
+      "fields": {
+        "tripTitle": "Jupiter Expedition: A Comfortable and Adventurous Journey",
+        "date": "2068（TBC）",
+        "distance": "5,900,000,000",
+        "difficulty": 5,
+        "overView": "With the development of gravity assist technology, we can now approach this once-impossible planet. Participants can safely enter this gas giant on the world's largest space tourism vessel while enjoying various storms and the ship's entertainment facilities.",
+        "itinerary1": "Day 1: Board CMYK100 space tourism vessel and enjoy the stellar nebula along the way.",
+        "itinerary2": "Day 2: Anchor 100 km from Jupiter to understand its structure and the formation of storms.",
+        "itinerary3": "Day 3: Enjoy a Jupiter-themed buffet and performance amid breathtaking views.",
+        "originalPrice": 120000,
+        "price": 109900,
+        "soldOut": false,
+        "inventory": 10,
+        "image": { "fields": {
+          "file1": { "url": "./Img/Trip/trip3-slider1.png" },
+          "file2": {"url": "./Img/Trip/trip3-slider2.png"},
+          "file3": {"url": "./Img/Trip/trip3-slider3.png"}
+        }}
+      }
+    }
+    
+  ]
+  
+}
